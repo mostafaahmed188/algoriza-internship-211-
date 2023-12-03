@@ -2,7 +2,7 @@
   <nav class="bg-white">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
       <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="../images/logo/bxs-plane-alt 1.jpg" class="h-4" alt="Logo" />
+        <img src="../images/logo/bxs-plane-alt 1.jpg" height="24px" alt="Logo" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap">my Dream Place</span>
       </a>
       <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">

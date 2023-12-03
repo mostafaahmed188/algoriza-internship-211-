@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <site-navigation />
-    
+
     <div class="relative">
       <section class="bg-cover bg-center bg-no-repeat bg-main rounded h-xl">
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
@@ -16,278 +16,78 @@
           </p>
         </div>
       </section>
- 
-      
-    </div>    
-      <div class="">
-        <form class="absolute bottom-40 ">
-        <div class="flex items-center">
-          <button
-            id="dropdown-button"
-            data-dropdown-toggle="dropdown"
-            class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center rounded-s-lg"
-            type="button"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-            >
-              <path
-                d="M9.9999 11.1917C10.3413 11.1917 10.6794 11.1244 10.9949 10.9938C11.3103 10.8631 11.5969 10.6716 11.8384 10.4302C12.0798 10.1887 12.2713 9.90212 12.402 9.58668C12.5327 9.27123 12.5999 8.93314 12.5999 8.5917C12.5999 8.25026 12.5327 7.91217 12.402 7.59672C12.2713 7.28128 12.0798 6.99465 11.8384 6.75322C11.5969 6.51179 11.3103 6.32027 10.9949 6.18961C10.6794 6.05895 10.3413 5.9917 9.9999 5.9917C9.31034 5.9917 8.64902 6.26563 8.16142 6.75322C7.67383 7.24082 7.3999 7.90214 7.3999 8.5917C7.3999 9.28126 7.67383 9.94258 8.16142 10.4302C8.64902 10.9178 9.31034 11.1917 9.9999 11.1917V11.1917Z"
-                stroke="#828282"
-                stroke-width="1.5"
-              />
-              <path
-                d="M3.01675 7.07508C4.65842 -0.141583 15.3501 -0.13325 16.9834 7.08342C17.9417 11.3168 15.3084 14.9001 13.0001 17.1168C12.1935 17.8947 11.1165 18.3294 9.99592 18.3294C8.87529 18.3294 7.79835 17.8947 6.99175 17.1168C4.69175 14.9001 2.05842 11.3084 3.01675 7.07508V7.07508Z"
-                stroke="#828282"
-                stroke-width="1.5"
-              />
-            </svg>
-            Where are you going?
-          </button>
-          <button
-            class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center rounded-s-lg"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-            >
-              <path
-                d="M6.6665 1.66675V4.16675"
-                stroke="#828282"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.3335 1.66675V4.16675"
-                stroke="#828282"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M2.9165 7.5752H17.0832"
-                stroke="#828282"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M17.5 7.08341V14.1667C17.5 16.6667 16.25 18.3334 13.3333 18.3334H6.66667C3.75 18.3334 2.5 16.6667 2.5 14.1667V7.08341C2.5 4.58341 3.75 2.91675 6.66667 2.91675H13.3333C16.25 2.91675 17.5 4.58341 17.5 7.08341Z"
-                stroke="#828282"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.0791 11.4167H13.0866"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.0791 13.9167H13.0866"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M9.99561 11.4167H10.0039"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M9.99561 13.9167H10.0039"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M6.91162 11.4167H6.91995"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M6.91162 13.9167H6.91995"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              /></svg
-            >Check in date
-          </button>
-          <button
-            class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center rounded-s-lg"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-            >
-              <path
-                d="M6.6665 1.66675V4.16675"
-                stroke="#828282"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.3335 1.66675V4.16675"
-                stroke="#828282"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M2.9165 7.5752H17.0832"
-                stroke="#828282"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M17.5 7.08341V14.1667C17.5 16.6667 16.25 18.3334 13.3333 18.3334H6.66667C3.75 18.3334 2.5 16.6667 2.5 14.1667V7.08341C2.5 4.58341 3.75 2.91675 6.66667 2.91675H13.3333C16.25 2.91675 17.5 4.58341 17.5 7.08341Z"
-                stroke="#828282"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.0791 11.4167H13.0866"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M13.0791 13.9167H13.0866"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M9.99561 11.4167H10.0039"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M9.99561 13.9167H10.0039"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M6.91162 11.4167H6.91995"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M6.91162 13.9167H6.91995"
-                stroke="#828282"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              /></svg
-            >Check out date
-          </button>
-          <button
-            class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center rounded-s-lg"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-            >
-            <img src="" height="" class="width-" alt="">
-              <g clip-path="url(#clip0_2038_84)">
-                <path
-                  d="M15.1166 18.0168C14.3833 18.2335 13.5166 18.3335 12.5 18.3335H7.49997C6.4833 18.3335 5.61663 18.2335 4.8833 18.0168C5.06663 15.8502 7.29163 14.1418 9.99997 14.1418C12.7083 14.1418 14.9333 15.8502 15.1166 18.0168V18.0168Z"
-                  stroke="#828282"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M12.4998 1.66675H7.49984C3.33317 1.66675 1.6665 3.33341 1.6665 7.50008V12.5001C1.6665 15.6501 2.6165 17.3751 4.88317 18.0167C5.0665 15.8501 7.2915 14.1417 9.99984 14.1417C12.7082 14.1417 14.9332 15.8501 15.1165 18.0167C17.3832 17.3751 18.3332 15.6501 18.3332 12.5001V7.50008C18.3332 3.33341 16.6665 1.66675 12.4998 1.66675ZM9.99984 11.8084C8.34984 11.8084 7.0165 10.4667 7.0165 8.81675C7.0165 7.16675 8.34984 5.83341 9.99984 5.83341C11.6498 5.83341 12.9832 7.16675 12.9832 8.81675C12.9832 10.4667 11.6498 11.8084 9.99984 11.8084Z"
-                  stroke="#828282"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M12.9833 8.81683C12.9833 10.4668 11.6499 11.8085 9.99993 11.8085C8.34993 11.8085 7.0166 10.4668 7.0166 8.81683C7.0166 7.16683 8.34993 5.8335 9.99993 5.8335C11.6499 5.8335 12.9833 7.16683 12.9833 8.81683Z"
-                  stroke="#828282"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </g>
-              <defs>
-                <clipPath id="clip0_2038_84">
-                  <rect width="20" height="20" fill="white" />
-                </clipPath>
-              </defs></svg
-            >Guests
-          </button>
 
-          <div class="w-full">
+      <div class="flex flex-wrap items-center">
+        <form class="absolute -bottom-6 right-1/4 shadow-2xl">
+          <div class="flex items-center bg-white rounded-notice">
             <button
-              type="submit"
-              class="inline-flex items-center py-2.5 px-3 ms-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              id="dropdown-button"
+              data-dropdown-toggle="dropdown"
+              class="flex-shrink-0 bg-btn inline-flex items-center py-1.5 px-2 text-sm font-medium text-center rounded-btn"
+              type="button"
             >
-              Search
+              <img src="./images/icon/location 1.svg" alt="" />
+              Where are you going?
+              <img src="./images/icon/arrow-down 1.svg" alt="" />
             </button>
+            <button
+              class="flex-shrink-0 bg-btn inline-flex items-center py-1.5 px-2 text-sm font-medium text-center rounded-btn"
+            >
+              <img src="./images/icon/calendar 1.svg" alt="" />
+              Check in date
+            </button>
+            <button
+              class="flex-shrink-0 bg-btn inline-flex items-center py-1.5 px-2 text-sm font-medium text-center rounded-btn"
+            >
+              <img src="./images/icon/calendar 1.svg" alt="" />
+              Check out date
+            </button>
+            <button
+              class="flex-shrink-0 bg-btn inline-flex items-center py-1.5 px-2 text-sm font-medium text-center rounded-btn"
+            >
+              <img src="./images/icon/user-square 1.svg" alt="" />
+              Guests
+            </button>
+            <button
+              class="flex-shrink-0 bg-btn inline-flex items-center py-1.5 px-2 text-sm font-medium text-center rounded-btn"
+            >
+              <img src="./images/icon/single_bed_FILL0_wght400_GRAD0_opsz24 1.svg" alt="" />
+              Rooms
+            </button>
+
+            <div class="w-full">
+              <button
+                type="submit"
+                class="flex content-center items-center text-center w-btn py-1.5 px-2 ms-2 text-sm font-medium text-white bg-blue-700 rounded-btn border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Search
+              </button>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
       </div>
-      <div class="w-full flex flex-row content-center items-center bg-notice my-8 rounded-notice h-notice">
-        <img class="px-2" src="./images/logo/danger 1.svg" alt="" srcset="">
-        <p class="px-2">Check the latest COVID-19 restrictions before you travel. Learn more</p>
+    </div>
+
+    <div
+      class="w-full flex flex-row content-center items-center bg-notice my-8 rounded-notice h-notice"
+    >
+      <img class="px-2" src="./images/logo/danger 1.svg" alt="" srcset="" />
+      <p class="px-2">Check the latest COVID-19 restrictions before you travel. Learn more</p>
+    </div>
+
+    <h5>Enjoy your dream vacation</h5>
+    <p>
+      Plan and book our perfect trip with expert advice, travel tips, destination information and
+      inspiration from us
+    </p>
+    <!-- the start 4 cards -->
+    <div class="grid grid-cols-4 gap-4 gap-x-4 py-8">
+      <div v-for="i in 4" :key="i">
+        <img src="./images/country-cards/Australia.png" alt="" />
+        <h5>Australia</h5>
+        <p>2246 properties</p>
       </div>
-      
-        <h5>Enjoy your dream vacation</h5>
-        <p>Plan and book our perfect trip with expert advice, travel tips, destination information and inspiration from us</p>
-        <!-- the start 4 cards -->
-        <div class="flex flex-row gap-x-4 py-8">
-        <div>
-          <img src="./images/country-cards/Australia.png" alt="">
-          <h5>Australia</h5>
-          <p>2246 properties</p>
-        </div>
-        <div>
+      <!-- <div>
           <img src="./images/country-cards/Greece.png" alt="">
           <h5>Greece</h5>
           <p>2246 properties</p>
@@ -301,90 +101,97 @@
           <img src="./images/country-cards/NewZealand.png" alt="">
           <h5>New Zealand</h5>
           <p>2246 properties</p>
-        </div>
-        </div>
-        <!-- the end 4 cards -->
+        </div> -->
+    </div>
+    <!-- the end 4 cards -->
 
-        <!-- the start 3 cards -->
-        <div>
-        <h5>Get inspiration for your next trip</h5>
-        <div class="flex flex-row gap-x-4 py-8">
+    <!-- the start 3 cards -->
+    <div class="pb-10">
+      <h5>Get inspiration for your next trip</h5>
+      <div class="grid grid-cols-3 gap-4 py-8">
         <div>
           <section class="bg-trip-1 h-trip w-trip">
-            <div class="flex flex-wrap content-end">
-            <h1>Sydeny’s 10 most fashionable 5 star hotels</h1>
-            <p>Browse the fastest growing tourism sector in the heart of Australia tourism capital ....</p>
+            <div class="flex flex-wrap items-end">
+              <h1>Sydeny’s 10 most fashionable 5 star hotels</h1>
+              <p>
+                Browse the fastest growing tourism sector in the heart of Australia tourism capital
+                ....
+              </p>
             </div>
           </section>
         </div>
         <div>
           <section class="bg-trip-2 h-trip w-trip">
             <div class="flex items-end">
-            <h1>Top cities for Vegan Travellers</h1>
-            <p>Top sites where you do not have to worry about being a vegan. Our tourist guide is here...</p>
+              <h1>Top cities for Vegan Travellers</h1>
+              <p>
+                Top sites where you do not have to worry about being a vegan. Our tourist guide is
+                here...
+              </p>
             </div>
           </section>
         </div>
         <div>
           <section class="bg-trip-3 h-trip w-trip">
             <div class="flex items-end">
-            <h1>World’s top destinations during and post covid timeline</h1>
-            <p>Pandemic is still intact and will be here for a longer time. Here’s where your next destination...</p>
+              <h1>World’s top destinations during and post covid timeline</h1>
+              <p>
+                Pandemic is still intact and will be here for a longer time. Here’s where your next
+                destination...
+              </p>
             </div>
           </section>
         </div>
-        </div>
       </div>
-      <!-- the end 3 cards -->
+    </div>
+    <!-- the end 3 cards -->
 
-      <h5>Enjoy your dream vacation</h5>
-        <!-- the start 4 cards -->
-        <div class="flex flex-row gap-x-4 py-8">
-        <div>
-          <img src="./images/hotel-cards/Rectangle 8.png" alt="">
-          <h5>Lakeside Motel Warefront</h5>
-          <p>2246 properties</p>
-        </div>
-        <div>
-          <img src="./images/hotel-cards/Rectangle 9.png" alt="">
-          <h5>Recce Graham resort</h5>
-          <p>1278 properties</p>
-        </div>
-        <div>
-          <img src="./images/hotel-cards/Rectangle 10.png" alt="">
-          <h5>Fireside Dinners</h5>
-          <p>480 properties</p>
-        </div>
-        <div>
-          <img src="./images/hotel-cards/Rectangle 11.png" alt="">
-          <h5>Oculous Inn Stay</h5>
-          <p>320 properties</p>
-        </div>
-        </div>
-        <!-- the end 4 cards -->
-        <section class="bg-app w-app h-app">
-          <div class="w-text-app">
-            <h1>Download the mobile application for bonus coupons and travel codes</h1>
-            <button
-              type="submit"
-              class="inline-flex items-center py-2.5 px-3 ms-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            >
-              Download mobile app
-            </button>
-          </div>
-        </section>
+    <h5 font-size="28px">Popular hotels</h5>
+    <!-- the start 4 cards -->
+    <div class="grid grid-cols-4 gap-4 py-8">
+      <div>
+        <img src="./images/hotel-cards/Rectangle 8.png" alt="" />
+        <h5>Lakeside Motel Warefront</h5>
+        <p>2246 properties</p>
+      </div>
+      <div>
+        <img src="./images/hotel-cards/Rectangle 9.png" alt="" />
+        <h5>Recce Graham resort</h5>
+        <p>1278 properties</p>
+      </div>
+      <div>
+        <img src="./images/hotel-cards/Rectangle 10.png" alt="" />
+        <h5>Fireside Dinners</h5>
+        <p>480 properties</p>
+      </div>
+      <div>
+        <img src="./images/hotel-cards/Rectangle 11.png" alt="" />
+        <h5>Oculous Inn Stay</h5>
+        <p>320 properties</p>
+      </div>
+    </div>
+    <!-- the end 4 cards -->
+    <section class="grid grid-cols-1 gap-0 grid-rows-6 grid-flow-col bg-app h-app rounded-notice">
+      <div class="grid grid-cols-3 gap-4 w-text-app pl-10">
+        <h1 class="text-white col-span-2">
+          Download the mobile application for bonus coupons and travel codes
+        </h1>
+        <button
+          type="submit"
+          class="col-auto inline-flex items-center py-2.5 px-3 ms-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Download mobile app
+        </button>
+      </div>
+    </section>
 
-        <!-- start the footer aria -->
-        <footer>
-          <h1>Explore the world with My Dream place</h1>
-          <p>Discover new places and experiences</p>
-          <div>
-
-          </div>
-        </footer>
-        <!-- end the footer aria -->
-
-  
+    <!-- start the footer aria -->
+    <footer>
+      <h1>Explore the world with My Dream place</h1>
+      <p>Discover new places and experiences</p>
+      <div></div>
+    </footer>
+    <!-- end the footer aria -->
   </div>
 </template>
 

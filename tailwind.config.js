@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundColor: {
         'notice': '#FCEFCA',
+        'btn': 'var(--Gray-6, #F2F2F2)'
       },
       letterSpacing: {
         tightest: '0.32px',
@@ -26,7 +27,8 @@ module.exports = {
       width: {
         'trip': '400px',
         'app': '1240px',
-        'text-app': '580px'
+        'text-app': '580px',
+        'btn': '134px'
       },
       height: {
         sm: '8px',
@@ -40,7 +42,11 @@ module.exports = {
         'app': '280px',
       },
       borderRadius: {
-        'notice': '8px'
+        'notice': '8px',
+        'btn': '6px'
+      },
+      boxShadow: {
+        '2xl': '0px 4px 37px 0px rgba(0, 0, 0, 0.15)'
       }
 
     },
